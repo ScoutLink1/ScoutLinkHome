@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>ScoutLink | Privacy Policy</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+<header>
+  <h1>Privacy Policy</h1>
+</header>
+
+<nav>
+  <a href="index.html">Home</a>
+  <a href="pricing.html">Pricing</a>
+  <a href="scout-signup.html">Scout Signup</a>
+  <a href="about.html">About</a>
+</nav>
+
+<section>
+  <p>Your privacy is important to us. We collect only the information necessary to provide our scouting services. Your data will never be sold or shared without your consent.</p>
+  <p>For questions, email us at <a href="mailto:scoutlink2025@gmail.com">scoutlink2025@gmail.com</a>.</p>
+</section>
+
+<footer>
+  &copy; 2025 ScoutLink | <a href="privacy.html">Privacy</a> | <a href="terms.html">Terms</a>
+</footer>
+
+</body>
+</html>

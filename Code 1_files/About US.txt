@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>ScoutLink | About</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+<header>
+  <h1>About ScoutLink</h1>
+</header>
+
+<nav>
+  <a href="index.html">Home</a>
+  <a href="pricing.html">Pricing</a>
+  <a href="scout-signup.html">Scout Signup</a>
+  <a href="about.html">About</a>
+</nav>
+
+<section>
+  <h2>Why I Created ScoutLink</h2>
+  <p>I started ScoutLink because of my lifelong passion for sports. From a young age, athletics shaped who I am, instilling discipline and perseverance. I personally know how hard it is for athletes to get noticed—especially those not at big schools.</p>
+  <p>ScoutLink’s mission is to give every athlete a real chance. Whether you’re a top recruit or an underdog, you’ll get seen here. For scouts—especially D2, D3, NAIA, and JUCO—we simplify your search with advanced filters by stats, size, play style, and academics. Less searching, more recruiting, more wins.</p>
+  <h3>Contact</h3>
+  <p>Email us: <a href="mailto:scoutlink2025@gmail.com">scoutlink2025@gmail.com</a></p>
+</section>
+
+<footer>
+  &copy; 2025 ScoutLink | <a href="privacy.html">Privacy</a> | <a href="terms.html">Terms</a>
+</footer>
+
+</body>
+</html>

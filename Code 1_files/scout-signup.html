@@ -4,9 +4,10 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>ScoutLink | Scout Signup</title>
-  <meta name="description" content="Apply for ScoutLink database access as a scout. Fill out the form to get verified and access athlete profiles." />
+  <meta name="description" content="Apply for ScoutLink database access as a scout." />
   <link rel="stylesheet" href="styles.css" />
 </head>
+
 <body>
 
 <header>
@@ -24,23 +25,26 @@
 <main>
   <section>
     <form action="https://formsubmit.co/scoutlink2025@gmail.com" method="POST">
-      <input type="hidden" name="_redirect" value="thank-you.html">
+
+      <!-- REQUIRED FIXES -->
+      <input type="hidden" name="_next" value="thank-you.html">
       <input type="hidden" name="_captcha" value="false">
+      <input type="hidden" name="_subject" value="New Scout Application">
 
       <label for="name">Full Name</label>
-      <input type="text" id="name" name="Name" placeholder="Full Name" required>
+      <input type="text" id="name" name="name" required>
 
       <label for="email">Email</label>
-      <input type="email" id="email" name="Email" placeholder="Email" required>
+      <input type="email" id="email" name="email" required>
 
       <label for="phone">Phone Number</label>
-      <input type="tel" id="phone" name="Phone" placeholder="Phone Number" required>
+      <input type="tel" id="phone" name="phone" required>
 
-      <label for="organization">School/Team/Organization</label>
-      <input type="text" id="organization" name="Organization" placeholder="School/Team/Organization" required>
+      <label for="organization">School / Team / Organization</label>
+      <input type="text" id="organization" name="organization" required>
 
       <label for="message">Why are you applying? (Optional)</label>
-      <textarea id="message" name="Message" placeholder="Optional message"></textarea>
+      <textarea id="message" name="message"></textarea>
 
       <button type="submit" class="cta-btn">Apply for Access</button>
     </form>
@@ -48,7 +52,9 @@
 </main>
 
 <footer>
-  &copy; 2025 ScoutLink | <a href="privacy.html">Privacy</a> | <a href="terms.html">Terms</a>
+  &copy; 2025 ScoutLink |
+  <a href="privacy.html">Privacy</a> |
+  <a href="terms.html">Terms</a>
 </footer>
 
 </body>
